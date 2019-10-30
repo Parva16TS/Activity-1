@@ -6,10 +6,10 @@ int main()
     for (i = 1; i <= n; ++i)
     {
         printf("%d  ", t1);
-        int m;
-        m= t1 + t2;
+        int nextTerm;
+        nextTerm= t1 + t2;
         t1 = t2;
-        t2 = m;
+        t2 = nextTerm;
     }
     return 0;
 }
