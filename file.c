@@ -1,9 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int i, n=8, t1 = 0, t2 = 1, nextTerm,m;
-    printf("Enter the number of terms: ");
-    scanf("%d", &n);
+    int i, n=8, t1 = 0, t2 = 1, nextTerm;
     printf("Fibonacci Series: ");
     for (i = 1; i <= n; ++i)
     {
